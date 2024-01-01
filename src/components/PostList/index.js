@@ -2,11 +2,7 @@ import React from 'react';
 import { AiOutlineLike } from "react-icons/ai";
 import { FaRegCommentAlt } from "react-icons/fa";
 import { FaRegEye } from "react-icons/fa";
-
-
-
-
-
+import logo from '../../icon.png';
 import './index.css';
 
 const PostList = ({ posts }) => {
@@ -51,6 +47,11 @@ const PostList = ({ posts }) => {
         </div>
       ))}
     </ul>
+    <img src={logo} alt='logo' className='logo-big' />          
+    <h2>Looking for more?</h2>
+    <p>Browse the <span style={{color: "#03b1fc"}}>complete list of questions
+    </span>, or <span  style={{color: "#03b1fc"}} >popular tags</span>. Helps us answer <br />unanswered questions</p>
+    <hr />
     </div>
   );
 };

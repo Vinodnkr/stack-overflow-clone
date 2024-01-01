@@ -124,7 +124,7 @@ function Home() {
       <p className='right-cont-title'>Software Engineer</p>
       <p>SparkNET Technologies</p>
       <p><CiLocationOn />No Location  <FaEarthAfrica />Remote</p>
-      <p className='right-cont-title'>VIEW ALL JOBS ></p></div>
+      <p className='right-cont-title'>VIEW ALL JOBS &gt;</p></div>
       </div>
 
 
@@ -158,6 +158,9 @@ function Home() {
          Does 1 pixel have a standard size?</p>
       </div>
       <hr /> 
+
+      
+      <p className='right-cont-title'>VIEW ALL JOBS &gt;</p>
       
       </div>
       </div>
