@@ -1,0 +1,203 @@
+.logo {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .logo-container {
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+    width: 100vw;
+    height: 5%;
+    border: 1px solid #d3d1d1 ;
+  }
+
+  .logo-container-logo{
+    align-items: center;
+    display: flex;
+
+  }
+  
+  .search-container{
+    margin-left: 20%;
+  
+  }
+  
+  .menu-icon{
+    font-size: 20px;
+    margin-left: 30px;
+   text-align: center;
+   align-self: center;
+   
+  }
+  .search-icon {
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    color: #deddd9;
+    }
+
+  
+  .search-bar {
+    width: 300px;
+    height: 20px;
+    
+    border: transparent;
+    text-align: start;
+  }
+  
+  .center {
+    text-align: center;
+  }
+
+  .colorg{
+    color: #a3a3a2;
+  }
+
+  .jcenter{
+    justify-content: center;
+  }
+
+  .jstart{
+    justify-content: flex-start;
+  }
+
+  .jend{
+    justify-content: flex-end;
+  }
+
+  .acenter{
+    align-items: center;
+  }
+
+  .column{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .right-icons{
+    width: 100vh;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .ml3{
+    margin-left: 10px;
+  }
+  .ml2{
+    margin-left: 5px;
+  }
+
+  .question-tag{
+    margin-left: 45px;
+  }
+
+
+
+  /* Add this to your existing CSS file or modify as needed */
+
+.left-nav {
+    display: none;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-100%);
+    width:300px;
+  }
+  
+  .left-nav.open {
+    transform: translateY(0);
+    display: inline;
+    
+    
+  }
+
+  .stack{
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 1px;
+  }
+  
+  .nav-list{
+    text-align: left;  
+    padding-bottom: 30px;  
+    color: #a3a3a2;
+    border-right: 2px solid lightgray;
+    
+  }
+
+
+
+.new{
+    color: orange;
+    font-size: 10px;
+    text-align: top;
+}
+.nav-list-para {
+    border-left: 3px solid transparent; 
+    padding-left: 10px;
+    padding-bottom: 20px;
+    transition: border-color 0.3s ease-in-out; 
+  }
+  
+  .nav-list-para:hover {
+    border-left-color:  orange; 
+    color: black;   
+    .icon-color{
+        color: orange;
+    } 
+  }
+  
+
+  .icon-color{
+    font-size: 20px;
+  }
+
+  .new-inbox{
+    color: orange;
+    border: 2px solid lightgray;
+    box-sizing: border-box;
+    border-radius: 16px;
+    
+    padding: 2px 6px 2px 6px ;
+    
+  }
+
+  .content-para{
+    margin-top: 0px;
+    
+  }
+
+  .spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust the height as needed */
+  }
+  
+
+  /* right pannel */
+
+  .right-cont-title{
+    color: #03b1fc;
+  }
+
+ .right-cont{
+  width: 40%;
+ }
+
+ .center-cont{
+  width: 50%;
+ }
+
+ .right-background{
+  background-color: rgba(241, 241, 241, 0.986);
+ }
+
+ *{
+  color: #a3a3a2;
+ }

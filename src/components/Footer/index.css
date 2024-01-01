@@ -1,0 +1,16 @@
+
+.footer{
+    color: #a3a3a2;
+    font-size: 13px;
+}
+
+.footer-cont{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5px;
+    align-items: center;
+    
+}
+
+
+
